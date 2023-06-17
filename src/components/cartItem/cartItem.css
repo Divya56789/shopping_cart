@@ -1,0 +1,229 @@
+.shopcart__cartitem{
+    width: min(100% - 6rem);
+    margin-inline:auto;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.cart-divider{
+    border:1px solid rgb(222, 220, 220)
+}
+.dot-divider{
+    border:1.5px dotted rgb(222, 220, 220);
+    margin:0 1rem;
+}
+.shopcart__cartitem__itemlist{
+    flex:70%;
+    background-color: white;
+    border:1px solid gainsboro;
+}
+
+.shopcart__cartitem__price-details{
+    flex:30%;
+    border:1px solid gainsboro;
+    background-color: white;
+    height:max-content;
+}
+.shopcart__cartitem__price-details h3{
+    color:gray
+}
+.shopcart__cartitem__price-details__heading{
+    display: flex;
+    align-items: center;
+    padding:1rem;
+}
+.shopcart__cartitem__price-details__item, .shopcart__cartitem__price-details__discount, .shopcart__cartitem__price-details__total{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 1rem;
+    color:rgb(34, 34, 34);
+    font-weight: 500;
+    font-size: large;
+}
+.shopcart__cartitem__price-details__total h4{
+    color:black;
+    font-size: large;
+}
+.shopcart__cartitem__price-details__place-order{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding:0.6rem 0rem;
+    background-color: orangered;
+    color:white;
+    justify-content: center;
+    font-size: large;
+    border:none;
+    cursor: pointer;
+}
+.shoopcart__payment__now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+/* left-part css */
+.shopcart__cartitem__itemlist__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+}
+.shopcart__cartitem__itemlist__item__image{
+    width: 100px;
+    height: 100px;
+    border:1px solid gainsboro;
+    border-radius: 6px;
+}
+.shopcart__cartitem__itemlist__heading{
+    display: flex;
+    align-items: center;
+    padding:1rem;
+    font-size: large;
+}
+.shopcart__cartitem__itemlist__item__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.shopcart__cartitem__itemlist__item__name h4{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+.shopcart__cartitem__itemlist__item__quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding:0.5rem ;
+    gap:16px;
+    border:1px solid rgb(233, 233, 233);
+}
+.shopcart__cartitem__itemlist__item__quantity__container{
+    display: flex;
+    align-items: center;
+    gap:8px
+}
+.shopcart__cartitem__itemlist__item__quantity__container button{
+    padding:0 0.4rem;
+    background-color: transparent;
+    border-color: whitesmoke;
+    font-size: 16px;
+}
+/* when cart is empty */
+.shopcart__cartitem__itemlist__empty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:0.4rem;
+}
+.shopcart__cartitem__itemlist__empty__image{
+    width: 300px;
+    height: 300px;
+}
+.shopcart__cartitem__itemlist__empty__image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shopcart__cartitem__itemlist__empty p{
+    color:gray;
+    font-weight: 600;
+}
+.shopcart__cartitem__itemlist__empty button{
+    background-color: transparent;
+    font-size: large;
+    color: gray;
+    font-weight: 600;
+    border:none;
+    margin-bottom: 1rem;
+}
+.shopcart__cartitem__itemlist__empty button:hover{
+    color: black;
+}
+/* for mobile design css */
+.shopcart__cartitem__itemlist__mobileitem{
+    display: none;
+}
+.shopcart__cartitem__itemlist__mobileitem__upperbody{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    align-items: center;
+    padding:1rem;
+}
+.shopcart__cartitem__itemlist__mobileitem__lowerbody{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:1px solid gainsboro;
+}
+.shopcart__cartitem__itemlist__item__qnt{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding:0.5rem ;
+    gap:16px;
+    border-right:2px solid gainsboro;
+}
+.shopcart__cartitem__itemlist__item__delete{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+    justify-content: center; 
+
+}
+.shopcart__cartitem__itemlist__item__details{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    gap:0.5rem;
+}
+.shopcart__cartitem__itemlist__item__delete button{
+    cursor: pointer;
+    border:none;
+    font-size: medium;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+@media screen and (max-width:1100px){
+    .shopcart__cartitem{
+        width: min(100% - 2rem);
+        margin-inline:auto;
+        gap:20px;
+    }
+}
+@media screen and (max-width:980px){
+    .shopcart__cartitem{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:660px){
+    .shopcart__cartitem{
+        width: min(100%);
+        margin-inline:auto;
+    }
+    .shopcart__cartitem__itemlist__item{
+        display: none;
+    }
+    .shopcart__cartitem__itemlist__mobileitem{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:111px){
+    
+}
+

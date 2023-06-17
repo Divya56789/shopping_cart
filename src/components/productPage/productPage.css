@@ -1,0 +1,146 @@
+.shopcart__productPage{
+    width: min(100% - 6rem);
+    margin-inline: auto;
+    background-color: rgb(255, 252, 252);
+    margin-top: 2rem;
+}
+.shopcart__productPage__container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.shopcart__productPage__container__left{
+    flex:40%;
+}
+.shopcart__productPage__container__left__product-image{
+    height: min(100vh - 8rem);
+    border:1px solid gainsboro;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+
+.shopcart__productPage__container__left__product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* right-part css */
+.shopcart__productPage__container__right{
+    display: flex;
+    flex:60%;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.shopcart__productPage__container__right__product-item{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+.shopcart__productPage__container__right__product-name{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.shopcart__productPage__container__right__product-name__special-price{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+/* rate css part */
+.star__ratings__review{
+    display: flex;
+    flex-direction: row;
+    gap:16px
+}
+.star__ratings__review .review{
+    color:gray;
+    font-weight: 600;
+}
+.star__rating{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    justify-content: center;
+    padding:0.2rem 0;
+    background-color: green;
+    gap:2px;
+}
+.star__rating p{
+    font-weight: bold;
+    color:white;
+}
+.shopcart__productPage__container__right__product-category p{
+    font-weight: 600;
+    font-size: large;
+    text-transform: capitalize ;
+}
+.shopcart__productPage__container__right__product__buttons{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.shopcart__productPage__container__right__product__quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding:0.5rem ;
+    gap:16px;
+    border:1px solid rgb(233, 233, 233);
+}
+.shopcart__productPage__container__right__product__quantity__container{
+    display: flex;
+    align-items: center;
+    gap:8px
+}
+.shopcart__productPage__container__right__product__quantity__container button{
+    padding:0 0.4rem;
+    background-color: transparent;
+    border-color: whitesmoke;
+    font-size: 16px;
+}
+.shopcart__productPage__container__right__button{
+    padding: 0.5rem 0;;
+}
+.shopcart__productPage__container__right__button button{
+    width: 100%;
+    font-size: large;
+    padding:1rem 2rem;
+    border:none;
+    outline: none;
+    background-color:#ffbb00;
+
+}
+.shopcart__productPage__container__right__button button:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width:740px){
+    .shopcart__productPage__container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .shopcart__productPage__container__left__product-image{
+        height: max(300px);
+        
+    }
+    .shopcart__productPage__container__right{
+        gap:1rem;
+        
+    }
+    .shopcart__productPage__container__right__product-item{
+        gap:0rem;
+    }
+    .shopcart__productPage__container__right__product-item h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:450px){
+    .shopcart__productPage{
+        width: min(100% - 2rem);
+        margin-inline: auto;
+    }
+}

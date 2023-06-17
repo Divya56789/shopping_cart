@@ -1,0 +1,57 @@
+.shopcart__furniture__discount__section{
+    background: url(../../assets/furniture-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    margin-top: 4rem;
+    position: relative;
+}
+.shopcart__furniture__discount__section__container{
+    min-width: 450px;
+    height: auto;
+    background-color: rgb(1, 65, 1);
+    color:white;
+    position: absolute;
+    top:20%;
+    right:10%;
+    letter-spacing: 1px;
+
+}
+.shopcart__furniture__discount__section__container-content{
+    padding:3rem 2rem;
+}
+.shopcart__furniture__discount__section__container-content p{
+    padding: 0.8rem 0;
+}
+.shopcart__furniture__discount__section__container-content button{
+    padding: 0.7rem 1.7rem;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    font-weight: 600;
+    color:white;
+    background-color: transparent;
+    border:2px solid white;
+    margin-top: 2rem;
+}
+@media screen and (max-width:562px){
+    .shopcart__furniture__discount__section__container{
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+        position: absolute;
+        top:20%;
+        right: 0%;
+        left:0%;
+        letter-spacing: 0px;
+    
+    }
+}
+@media screen and (max-width:450px){
+    .shopcart__furniture__discount__section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

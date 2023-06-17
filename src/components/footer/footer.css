@@ -1,0 +1,140 @@
+.shopcart__footer{
+    width: min(100% - 6rem);
+    margin-inline: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shopcart__footer__left{
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}
+.shopcart__footer__left__logo{
+    display: flex;
+    flex-direction: row;
+    gap:0.3rem;
+}
+
+.shopcart__footer__left__logo__img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    padding-bottom: 1rem;
+}
+.shopcart__footer__left__logo__image__section1, .shopcart__footer__left__logo__image__section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:1rem;
+}
+
+.shopcart__footer__department, .shopcart__footer__about__us, .shopcart__footer__services, .shopcart__footer__help{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+}
+li{
+    padding-top: 0.5rem;
+}
+.divider{
+    border:1px solid rgb(192, 191, 191);   
+    margin-top: 2rem;
+}
+   
+.footer{
+    margin-top: 2rem;
+    width: min(100% - 6rem);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.become__seller, .gift__cards, .help__center{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.footer__leftpart{
+    display: flex;
+    gap:2rem
+}
+.footer__middlepart{
+    display: flex;
+    gap:2rem;
+}
+@media screen and (max-width:1170px){
+    .shopcart__footer{
+        font-size: small;
+    }
+    .footer{
+        font-size: small;
+    }
+    
+}
+@media screen and (max-width:905px){
+    .shopcart__footer{
+        font-size:x-small;
+    }
+    .footer{
+        font-size: x-small;
+    } 
+       
+}
+@media screen and (max-width: 750px){
+    .shopcart__footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        font-size: xx-small;
+    }
+    .footer__leftpart{
+        gap:0.2rem
+    }
+    .footer__middlepart{
+        gap:0.2rem;
+    }  
+    .become__seller, .gift__cards, .help__center{
+        gap:0.2rem;
+    } 
+}
+@media screen and (max-width:604px){
+    .shopcart__footer{
+        font-size:xx-small;
+    }
+    .footer{
+        width: min(100%);
+    }
+    .divider{        
+        width: min(100%);
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+    }
+}
+@media screen and (max-width:450px){
+    .shopcart__footer{
+        width: min(100% - 2rem);
+        margin-inline: auto;
+    }
+    .footer{
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+
+    }
+    
+}
+
