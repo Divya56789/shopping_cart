@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Output
+![Screenshot (154)](https://github.com/Divya56789/shopping_cart/assets/100693473/6a1bddd2-2ce9-4dc3-b856-a74f4c24ffcc)
+![Screenshot (153)](https://github.com/Divya56789/shopping_cart/assets/100693473/e4619892-bef4-49a4-88d2-0dd26dedd4e9)
+![Screenshot (155)](https://github.com/Divya56789/shopping_cart/assets/100693473/74bd3f9a-8775-46e4-b2b6-1dab82cc976b)
+![Screenshot (156)](https://github.com/Divya56789/shopping_cart/assets/100693473/287cf80b-d61b-4b52-b175-9753305c4ee3)
+![Screenshot (157)](https://github.com/Divya56789/shopping_cart/assets/100693473/0503aba0-0ce0-401d-a938-af36095e7d6d)
+![Screenshot (158)](https://github.com/Divya56789/shopping_cart/assets/100693473/f8c8e5ab-a8b1-4932-81a8-40cbdd34ab06)
+![Screenshot (159)](https://github.com/Divya56789/shopping_cart/assets/100693473/d23fcb39-2310-43be-959b-3ae17960e7be)
+![Screenshot (151)](https://github.com/Divya56789/shopping_cart/assets/100693473/058c790e-4e8f-4171-b979-b6b86e807bb1)
